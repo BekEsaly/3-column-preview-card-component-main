@@ -21,7 +21,7 @@ body{
 }
 
 
-h1{
+h2{
     font-family: 'Big Shoulders Display';
     font-weight: 700;
     text-transform: uppercase;
@@ -44,6 +44,7 @@ a{
     margin: 1rem;
     display: grid;
     grid-template-columns: repeat(3,17rem);
+    overflow: hidden;
 }
 .card--items{
     
